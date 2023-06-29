@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CambiameApp</string>
+    <string name="powered">Powered by JRsoft</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="welcome">Bienvenido a Cambiame</string>
+    <string name="loginbtn">INGRESAR</string>
+</resources>
