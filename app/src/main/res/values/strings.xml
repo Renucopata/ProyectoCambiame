@@ -5,4 +5,10 @@
     <string name="pass">Contraseña</string>
     <string name="welcome">Bienvenido a Cambiame</string>
     <string name="loginbtn">INGRESAR</string>
+    <string name="otro">¿Otro?</string>
+    <string name="arg">Peso Argentino</string>
+    <string name="peru">Sol Peruano</string>
+    <string name="chile">Peso Chile</string>
+    <string name="dolar">Dolar</string>
+    <string name="monto">Monto</string>
 </resources>

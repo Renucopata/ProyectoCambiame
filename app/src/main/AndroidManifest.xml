@@ -13,9 +13,26 @@
         android:theme="@style/Theme.CambiameApp"
         tools:targetApi="31">
         <activity
+            android:name=".OtrosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalcActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
-
         <activity
             android:name=".SplashScreen"
             android:exported="true">
