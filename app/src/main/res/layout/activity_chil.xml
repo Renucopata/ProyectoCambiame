@@ -61,10 +61,10 @@
                 app:srcCompat="@drawable/chile" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/montoChil"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="montoChil" />
         </LinearLayout>
 
         <LinearLayout
@@ -79,12 +79,12 @@
                 app:srcCompat="@drawable/bolivia" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/montoBol"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="TextView" />
+                android:text="montoBol" />
         </LinearLayout>
 
         <Button
