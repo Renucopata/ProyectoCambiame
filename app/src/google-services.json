@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "664894934692",
+    "firebase_url": "https://cambiameapp-default-rtdb.firebaseio.com",
+    "project_id": "cambiameapp",
+    "storage_bucket": "cambiameapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664894934692:android:687f2d44143a464c706031",
+        "android_client_info": {
+          "package_name": "com.example.cambiameapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664894934692-i8o9l5lgcee8mhk29tl48frg9pjs3070.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2j7EviJFIU_2qfENDCqzA1zYkGNmPADs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664894934692-i8o9l5lgcee8mhk29tl48frg9pjs3070.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

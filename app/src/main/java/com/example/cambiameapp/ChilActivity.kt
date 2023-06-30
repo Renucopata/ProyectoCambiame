@@ -3,7 +3,6 @@ package com.example.cambiameapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.cambiameapp.databinding.ActivityArgBinding
 import com.example.cambiameapp.databinding.ActivityChilBinding
 
 class ChilActivity : AppCompatActivity() {
