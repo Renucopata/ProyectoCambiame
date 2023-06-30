@@ -15,4 +15,10 @@
     <string name="tipoDeCambio">Ingrese el tipo de cambio porfavor</string>
     <string name="save">Guardar </string>
     <string name="Cambiar">Cambiar </string>
+    <string name="CambArg">Monto en Pesos Argentinos</string>
+    <string name="CambSol">Monto en Soles</string>
+    <string name="CambChil">Monto en Pesos Chilenos</string>
+    <string name="CambDol">Monto en Dolares</string>
+    <string name="CambBol">Monto en Bolivianos</string>
+    <string name="CambOtr">Monto a cambiar</string>
 </resources>

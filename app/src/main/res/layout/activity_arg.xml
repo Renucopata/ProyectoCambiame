@@ -48,55 +48,81 @@
             android:ems="10"
             android:hint="@string/monto"
             android:inputType="numberDecimal"
-            android:textSize="27sp"
+            android:textSize="47sp"
             android:layout_marginBottom="50dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginBottom="50dp">
+            android:layout_marginBottom="10dp">
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/argentina" />
+                app:srcCompat="@drawable/argentina"
+                android:layout_gravity="center"
+                />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/montoArg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:textSize="47sp"/>
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CambArg"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="60dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginBottom="50dp">
+            android:layout_marginBottom="10dp">
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 app:srcCompat="@drawable/bolivia" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/montoBolArg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="TextView" />
+                android:textSize="47sp"/>
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CambBol"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="70dp"
+            />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/Cambiar" />
+            android:text="@string/Cambiar"
+            android:textSize="37sp"
+            android:backgroundTint="#676767"/>
 
 
     </LinearLayout>

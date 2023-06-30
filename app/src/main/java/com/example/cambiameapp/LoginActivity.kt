@@ -44,7 +44,7 @@ class LoginActivity : AppCompatActivity() {
         emailEt = binding.editTextUser
         passwordEt = binding.editTextPassword
         loginBtn = binding.buttonIngresar
-        
+
 
 
         val loginButton: Button = findViewById(R.id.buttonIngresar)
