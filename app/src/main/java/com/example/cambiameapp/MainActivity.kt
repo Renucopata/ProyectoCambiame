@@ -17,28 +17,28 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.btnArg.setOnClickListener {
-            val intent = Intent(this, CalcActivity::class.java)
+            val intent = Intent(this, ArgActivity::class.java)
             startActivity(intent)
         }
 
         binding.btnChil.setOnClickListener {
-            val intent = Intent(this, CalcActivity::class.java)
+            val intent = Intent(this, ChilActivity::class.java)
             startActivity(intent)
         }
 
 
         binding.btnSol.setOnClickListener {
-            val intent = Intent(this, CalcActivity::class.java)
+            val intent = Intent(this, SolActivity::class.java)
             startActivity(intent)
         }
 
         binding.btnDol.setOnClickListener {
-            val intent = Intent(this, CalcActivity::class.java)
+            val intent = Intent(this, DolActivity::class.java)
             startActivity(intent)
         }
 
         binding.btnOtro.setOnClickListener {
-            val intent = Intent(this, CalcActivity::class.java)
+            val intent = Intent(this, OtrosActivity::class.java)
             startActivity(intent)
         }
     }

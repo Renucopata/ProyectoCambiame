@@ -26,11 +26,6 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        auth = FirebaseAuth.getInstance()
-        emailEt = binding.editTextUser
-        passwordEt = binding.editTextPassword
-        loginBtn = binding.buttonIngresar
-
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE) // will hide the title
         supportActionBar?.hide() // hide the title bar
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
@@ -45,6 +40,12 @@ class LoginActivity : AppCompatActivity() {
         } // enable full screen
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        auth = FirebaseAuth.getInstance()
+        emailEt = binding.editTextUser
+        passwordEt = binding.editTextPassword
+        loginBtn = binding.buttonIngresar
+        
+
 
         val loginButton: Button = findViewById(R.id.buttonIngresar)
         loginButton.setOnClickListener {

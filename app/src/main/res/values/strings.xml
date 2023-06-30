@@ -11,4 +11,8 @@
     <string name="chile">Peso Chile</string>
     <string name="dolar">Dolar</string>
     <string name="monto">Monto</string>
+    <string name="exEj">Ejemplo: 6.94</string>
+    <string name="tipoDeCambio">Ingrese el tipo de cambio porfavor</string>
+    <string name="save">Guardar </string>
+    <string name="Cambiar">Cambiar </string>
 </resources>
