@@ -4,4 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E2F055"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnArg"
+            android:layout_width="246dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/billetearg2" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:gravity="center"
+            android:text="@string/arg"
+            android:textSize="20sp"/>/>
+
+        <ImageButton
+            android:id="@+id/btnChil"
+            android:layout_width="246dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/billetechile1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:gravity="center"
+            android:text="@string/chile"
+            android:textSize="20sp"/>/>
+
+        <ImageButton
+            android:id="@+id/btnSol"
+            android:layout_width="246dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/billeteperu1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:gravity="center"
+            android:text="@string/peru"
+            android:textSize="20sp"/>/>
+
+        <ImageButton
+            android:id="@+id/btnDol"
+            android:layout_width="246dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/dollarbill2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:gravity="center"
+            android:text="@string/dolar"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btnOtro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#676767"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:text="@string/otro" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
